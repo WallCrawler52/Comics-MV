@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../template.css">
+        <link rel="stylesheet" href="../../navbar.css">
+        <link rel="stylesheet" href="../../footer.css">
+        <script src="https://kit.fontawesome.com/8a97b381e2.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../../nav.js"></script>
+        <script src="../../js/cartserv.js" defer></script>
+        <link rel="icon" href="../../media/logo.png">
+        <title>Absolute Superman</title>
+    </head>
+    <body>
+        <nav>
+            <a onclick="openNav()" class="menu"><button><i class="fa-solid fa-bars"></i></button></a> 
+            <div class="overlay" id="mobile_menu">
+                <a onclick="closeNav()" href="" class="close">&times;</a>
+                <div class="overlay_content">
+                    <a href="../../comics.html">Comics</a>
+                    <a href="../../manga.html">Manga</a>
+                </div>
+            </div> 
+            <div class="logo">
+                <a href="../../index.html"><img src="../../media/logo.png" alt="logo_barra"></a>
+            </div>
+            <ul class="navb">
+                <li><a href="../../comics.html">Comics</a></li>
+                <li><a href="../../manga.html">Manga</a></li>
+            </ul>
+            <div class="buscador">
+                <input type="text" placeholder="Buscar...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>    
+            </div>    
+            <a href="../../cart.html" id="cart"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            <span id="cuenta-carrito">0</span>
+        </nav>
+        <main>
+            <section class="grid">
+                <article class="fragment">
+                    <img src="../../media/imgcomic/2.jpg">
+                </article>
+                <article class="fragment">
+                    <h1>Absolute Superman #1</h1>
+                        <div class="precio">
+                        <p>$99.00</p>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button>Comprar</button></a>
+                    <button>Agregar al carrito</button>     
+                <article class="fragment">
+                    <br>
+                    <p>Sin familia... Sin hogar... Sólo queda el hombre de acero absoluto. </p>
+                    <p>
+                        DC Comics ha consolidado otro elemento clave del nuevo Universo Absolute con el estreno de Absolute Superman nº 1, creado por Jason Aaron y Rafa Sandoval. Similar a las recientes publicaciones de Absolute Batman y Absolute Wonder Woman, esta serie se desarrolla en un universo donde el Hombre de Acero no posee muchas de las ventajas esenciales de su versión clásica. ¿Continúa siendo Superman si no creció en la granja de los Kent? </p>
+                </article>
+            </section>
+        </main>   
+        <footer class="footer">
+            <div class="foot_container">
+                <div class="foot_row">
+                    <div class="foot_links">
+                        <h4>Informacion</h4>
+                        <ul>
+                            <li>Nosotros</li>
+                            <li>Preguntas frecuentes</li>
+                            <li>Politica de privacidad</li>
+                        </ul>
+                    </div>
+
+                    <div class="foot_links">
+                        <h4>Redes Sociales</h4>
+                        <div class="social_networks">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </footer>
+    </body>
+</html>

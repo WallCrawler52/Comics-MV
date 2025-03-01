@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../../template.css">
+        <link rel="stylesheet" href="../../navbar.css">
+        <link rel="stylesheet" href="../../footer.css">
+        <script src="https://kit.fontawesome.com/8a97b381e2.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../../nav.js"></script>
+        <link rel="icon" href="../../media/logo.png">
+        <title>Ultimate Spider-Man</title>
+        <script src="../../js/cartserv.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <a onclick="openNav()" class="menu"><button><i class="fa-solid fa-bars"></i></button></a> 
+            <div class="overlay" id="mobile_menu">
+                <a onclick="closeNav()" href="" class="close">&times;</a>
+                <div class="overlay_content">
+                    <a href="../../comics.html">Comics</a>
+                    <a href="../../manga.html">Manga</a>
+                </div>
+            </div> 
+            <div class="logo">
+                <a href="../../index.html"><img src="../../media/logo.png" alt="logo_barra"></a>
+            </div>
+            <ul class="navb">
+                <li><a href="../../comics.html">Comics</a></li>
+                <li><a href="../../manga.html">Manga</a></li>
+            </ul>
+            <div class="buscador">
+                <input type="text" placeholder="Buscar...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>    
+            </div>    
+            <a href="../../cart.html" id="cart"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            <span id="cuenta-carrito">0</span>
+        </nav>
+        <main>
+            <section class="grid">
+                <article class="fragment">
+                    <img src="../../media/imgcomic/10.jpg">
+                </article>
+                <article class="fragment">
+                    <h1>Ultimate Spider-Man Vol. 1</h1>
+                        <div class="precio">
+                            <p>$249.00</p>
+                        </div>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button>Comprar</button></a>
+                    <button>Agregar al carrito</button>     
+                <article class="fragment">
+                    <br>
+                    <p>El visionario escritor Jonathan Hickman y el aclamado artista Marco Checchetto se unen para presentarte una nueva y audaz versión de Spider-Man, en los albores del reimaginado Universo Ultimate.</p>                   
+                    <p>Después de los eventos de Ultimate Invasion, el mundo necesita un héroe. ¡Te presentamos a Peter Parker! Pero este es un trepamuros más viejo y sabio, uno que equilibra sus deberes enmascarados con sus responsabilidades como esposo y padre. ¡Así es, Peter y Mary Jane están casados y tienen hijos! Las apuestas nunca han sido más altas, y mientras Spider-Man enfrenta a su primer supervillano, la búsqueda de J. Jonah Jameson para descubrir quién realmente está moviendo los hilos de este nuevo Universo Ultimate lleva a una revelación impactante. Además: Nueva York da la bienvenida a su nuevo héroe... ¡Green Goblin! Pero, ¿quién está detrás de la máscara? ¿Y qué sabe el Goblin de la verdadera situación del mundo en el que vive?</p>
+                </article>
+            </section>
+        </main>   
+        <footer class="footer">
+            <div class="foot_container">
+                <div class="foot_row">
+                    <div class="foot_links">
+                        <h4>Informacion</h4>
+                        <ul>
+                            <li>Nosotros</li>
+                            <li>Preguntas frecuentes</li>
+                            <li>Politica de privacidad</li>
+                        </ul>
+                    </div>
+
+                    <div class="foot_links">
+                        <h4>Redes Sociales</h4>
+                        <div class="social_networks">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </footer>
+    </body>
+</html>

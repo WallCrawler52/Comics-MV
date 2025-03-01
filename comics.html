@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="comics/cmx.css">
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="footer.css">
+        <script src="https://kit.fontawesome.com/8a97b381e2.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="nav.js"></script>
+        <script src="js/cmx.js"></script>
+        <script src="js/cartserv.js" defer></script>
+        <script src="js/comics.js" defer></script>
+        <link rel="icon" href="../media/logo.png">
+        <title>Comics</title>
+    </head>
+    <body>
+        <nav>
+            <a onclick="openNav()" class="menu"><button><i class="fa-solid fa-bars"></i></button></a> 
+            <div class="overlay" id="mobile_menu">
+                <a onclick="closeNav()" href="" class="close">&times;</a>
+                <div class="overlay_content">
+                    <a href="comics.html">Comics</a>
+                    <a href="manga.html">Manga</a>
+                </div>
+            </div> 
+            <div class="logo">
+                <a href="index.html"><img src="media/logo.png" alt="logo_barra"></a>
+            </div>
+            <ul class="navb">
+                <li><a href="comics.html">Comics</a></li>
+                <li><a href="manga.html">Manga</a></li>
+            </ul>
+            <div class="buscador">
+                <input type="text" placeholder="Buscar...">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>    
+            </div>    
+            <a href="cart.html" id="cart"><i class="fa-solid fa-cart-shopping" id="cart"></i></a>
+            <span id="cuenta-carrito">0</span>
+        </nav>    
+        <main>
+            <h1>Comics</h1>
+		    <section id="productos-container" class="grid">
+		    </section>
+        </main>
+        <footer class="footer">
+            <div class="foot_container">
+                <div class="foot_row">
+                    <div class="foot_links">
+                        <h4>Informacion</h4>
+                        <ul>
+                            <li>Nosotros</li>
+                            <li>Preguntas frecuentes</li>
+                            <li>Politica de privacidad</li>
+                        </ul>
+                    </div>
+
+                    <div class="foot_links">
+                        <h4>Redes Sociales</h4>
+                        <div class="social_networks">
+                            <i class="fa-brands fa-square-facebook"></i>
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </footer>
+    </body>
+</html>
