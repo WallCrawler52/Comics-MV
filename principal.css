@@ -113,35 +113,35 @@ div.item {
 div.item:nth-of-type(1) {
     --offset: 1;
     background-color: #90f1ef;
-    background-image: url(media/imgcomic/abm1.jpg);
+    background-image: url(media/imgcomic/1.jpg);
     background-size: cover;
 }
 
 div.item:nth-of-type(2) {
     --offset: 2;
     background-color: #ff70a6;
-    background-image: url(media/imgmanga/DDD.jpg);
+    background-image: url(media/imgmanga/18.jpg);
     background-size: cover;
 }
 
 div.item:nth-of-type(3) {
     --offset: 3;
     background-color: #ff9770;
-    background-image: url(media/imgmanga/DBS.jpg);
+    background-image: url(media/imgmanga/17.jpg);
     background-size: cover;
 }
 
 div.item:nth-of-type(4) {
     --offset: 4;
     background-color: #ffd670;
-    background-image: url(media/imgcomic/usm1.jpg);
+    background-image: url(media/imgcomic/10.jpg);
     background-size: cover;
 }
 
 div.item:nth-of-type(5) {
     --offset: 5;
     background-color: #e9ff70;
-    background-image: url(media/imgmanga/OP.jpg);
+    background-image: url(media/imgmanga/24.jpg);
     background-size: cover;
 }
   
