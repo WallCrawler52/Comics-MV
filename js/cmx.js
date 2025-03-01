@@ -1,62 +1,62 @@
 const comics = [
   {
       id:1,
-      nombre: "Absolute Batman",
+      nombre: "Absolute Batman #1",
       precio: 99,
   },
   {
       id:2,
-      nombre: "Absolute Superman",
+      nombre: "Absolute Superman #1",
       precio: 99,
   },
   {
       id:3,
-      nombre: "AliensvsAvengers",
+      nombre: "Aliens vs. Avengers #3",
       precio: 159,
   },
   {
       id:4,
-      nombre: "Daredevil_Woman",
+      nombre: "Daredevil: Woman Without Fear #1",
       precio: 99,
   },
   {
       id:5,
-      nombre: "Daredevil",
+      nombre: "Daredevil #2",
       precio: 169,
   },
   {
       id:6,
-      nombre: "Deadpool",
+      nombre: "Deadpool #2",
       precio: 79,
   },
   {
       id:7,
-      nombre: "Inmortal_Hulk",
+      nombre: "Inmortal Hulk: La Puerta Verde",
       precio: 189,
   },
   {
       id:8,
-      nombre: "Iron-Man",
+      nombre: "Iron-Man: Roxxon War",
       precio: 99,
   },
   {
       id:9,
-      nombre: "Nightwing",
+      nombre: "Nightwing #37",
       precio: 79,
   },
   {
       id:10,
-      nombre: "Spider-Man",
+      nombre: "Ultimate Spider-Man Vol.1",
       precio: 249,
   },
   {
       id:11,
-      nombre: "Wolverine",
+      nombre: "Life of Wolverine",
       precio: 99,
   },
   {
       id:12,
-      nombre: "Absolute_Wonder_Woman",
+      nombre: "Absolute Wonder Woman #1",
       precio: 99,
   }
 ]
